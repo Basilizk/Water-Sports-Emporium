@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+body {
+  background-image: url(../img/landing-page-home.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 140%;
+  height: 100%;
+  overflow: hidden;
+  margin: 0;
+}
+
+header {
+  margin-left: 50px;
+}
+
+nav {
+  height: 60px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  gap: 5px;
+  position: relative;
+}
+
+h1,
+li a {
+  text-decoration: none;
+  font-family: "Permanent Marker";
+  font-weight: 900;
+  font-size: 52px;
+  letter-spacing: 2px;
+  color: #050505;
+  /* text-shadow: 5px 8px 0px #f5d34b; */
+}
+
+h1 {
+  font-size: 62px;
+  margin-top: 10px;
+}
+
+.featured {
+  display: none;
+}
