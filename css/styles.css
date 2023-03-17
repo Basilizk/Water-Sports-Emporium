@@ -39,6 +39,7 @@ li a {
   font-size: 52px;
   letter-spacing: 2px;
   color: #050505;
+  transition: all 1s ease-out;
   /* text-shadow: 5px 8px 0px #f5d34b; */
 }
 
