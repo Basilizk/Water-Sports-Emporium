@@ -36,10 +36,18 @@ li a {
   text-decoration: none;
   font-family: "Permanent Marker";
   font-weight: 900;
-  font-size: 52px;
+  font-size: 54px;
   letter-spacing: 2px;
   color: #050505;
   text-shadow: 5px 5px 0px #7b7b7b;
+}
+
+li:hover {
+  transform: translateY(-10px);
+}
+
+li a:hover {
+  text-shadow: 5px 5px 0px #d7a912;
 }
 
 h1 {

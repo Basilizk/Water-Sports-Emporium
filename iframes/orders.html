@@ -14,7 +14,7 @@
 
         <form action="" method="get">
             <fieldset>
-                <h1>Orders</h1>
+                <h1 class="header">Orders</h1>
                 <h2>Featured Models</h2>
 
                 <select name="featured" id="drop-down" class="box">
@@ -23,7 +23,7 @@
                     <option value="Stealth Rider">Stealth Rider X</option>
                     <option value="Thunderbolt FX">Thunderbolt FX</option>
                 </select>
-                <input type="number" class="quantity box" value="0">
+                <input type="number" class="quantity" name="quantity" value="0" min="0" max="999" maxlength="3">
             </fieldset>
 
             <fieldset>
@@ -35,7 +35,7 @@
                     <option value="VelocityJet V-Tech">VelocityJet V-Tech</option>
                     <option value="Storm Rider">Storm Rider</option>
                 </select>
-                <input type="number" class="quantity box" value="0">
+                <input type="number" class="quantity" name="quantity" value="0" min="0" max="999" maxlength="3">
 
             </fieldset>
             <fieldset>
@@ -51,16 +51,17 @@
                     <option value="Neptune Cruiser">Neptune Cruiser</option>
 
                 </select>
-                <input type="number" class="quantity box" value="0">
+                <input type="number" class="quantity" name="quantity" value="0" min="0" max="999" maxlength="3">
 
             </fieldset>
-            <fieldset class="buttonSet">
-                <button type="submit" class="b1">Order Now</button>
-                <button type="reset" class="b2">Cancel</button>
+            <fieldset class=" buttonSet">
+                <button type="submit" class="b1" id="order">Order Now</button>
+                <button type="reset" class="b2" id="cancel">Cancel</button>
             </fieldset>
 
         </form>
 
+        <script src="../script.js"></script>
     </main>
 </body>
 
