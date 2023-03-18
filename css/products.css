@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Permanent Marker";
+  src: url("../fonts/PermanentMarker-Regular.ttf");
+}
+
+body {
+  background-color: transparent;
+}
+
+article {
+  position: relative;
+}
+
+h2 {
+  font-family: "Permanent Marker";
+  font-size: 48px;
+  color: #fbfbfb;
+  letter-spacing: 3px;
+  text-shadow: 5px 5px 0px #2f2f2f;
+}
+
+.jet-ski-model {
+  position: absolute;
+  top: 85px;
+  left: 35px;
+}
+.price {
+  position: absolute;
+  top: 60px;
+  left: 10px;
+}
+
+img {
+  width: 80%;
+  height: 80%;
+  border: 25px solid #050505;
+  box-shadow: 10px 10px 10px #050505;
+}
+
+section {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
