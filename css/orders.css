@@ -3,7 +3,7 @@
   src: url("../fonts/PermanentMarker-Regular.ttf");
 }
 
-#drop-down {
+.drop-down {
   font-family: "Permanent Marker";
   color: #050505;
   font-size: 32px;
